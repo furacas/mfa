@@ -9,7 +9,7 @@
 
 ### docker
 ```bash
-docker run -p 8501:8501 -v /path/to/your/data:/data furacas/mfa
+docker run -d -p 8501:8501 -v /path/to/your/data:/data furacas/mfa
 ```
 
 
@@ -37,7 +37,7 @@ While there are numerous MFA clients available, web-based clients are quite rare
 ## Installation Steps
 ### Docker
 ```
-docker run -p 8501:8501 -v /path/to/your/data:/data furacas/mfa
+docker run -d -p 8501:8501 -v /path/to/your/data:/data furacas/mfa
 ```
 
 ### Python
